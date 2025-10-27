@@ -25,8 +25,8 @@ cd sda2-workshops/challenge02-config
 
 ### 2. Deploy to Coolify
 
-1.	Create new service in Coolify
-2.	Point to your forked repo
+1.	Create new resource in Coolify with a public repo
+2.	Point to your forked repo and set the base-path to `challenge02-config`
 3.	Before deploying, add environment variables: 
     - API_KEY = your-secret-key-123
     - DEBUG = true
